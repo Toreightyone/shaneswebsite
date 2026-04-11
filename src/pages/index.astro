@@ -9,12 +9,20 @@ import Layout from '../layouts/BlogPost.astro';
 
 <!doctype html>
 <html lang="en">
+
+<style>
+.mainimage {
+  background-position: center;
+  background-image: "main-image-skyline.jpg";
+  background-size: cover;
+}
+</style>
 	<head>
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
 	</head>
 	<body>
 		<Header />
-			<div class="mainphoto" style="background-position: center; background-image: "main-image-skyline.jpg" background-size: cover"></div>
+			<div class="mainimage"></div>
 		<main>
 			<h1 style="text-align:center">Shane Gates</h1>
 			<p>
