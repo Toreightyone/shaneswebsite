@@ -3,6 +3,8 @@ import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+import Layout from '../layouts/BlogPost.astro';
+
 ---
 
 <!doctype html>
@@ -12,7 +14,9 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 	</head>
 	<body>
 		<Header />
-		<img src="/main-image-skyline.jpg" alt="Photo of the Toronto skyline\; taken from Tommy Thompson Park">
+		<Layout
+			heroImage="/main-image-skyline.jpg"
+		>
 		<main>
 			<h1>🧑‍🚀 Hello, Astronaut!</h1>
 			<p>
