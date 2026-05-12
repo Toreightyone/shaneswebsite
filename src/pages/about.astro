@@ -7,6 +7,9 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 import { getCollection } from 'astro:content';
 ---
 
+<!doctype html>
+<html lang="en">
+
 <style>
 .aboutimage {
   height: auto;
@@ -16,7 +19,10 @@ import { getCollection } from 'astro:content';
 }
 </style>
 
-
+<head>
+<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+</head>
+<body>
 <Header />
 <div class="aboutimage"></div>
 <h1>About Me</h1>
@@ -35,3 +41,5 @@ Each person walking, biking, or on transit is one less car on the road; facilita
 That is my goal.
 </p>
 <Footer />
+</body>
+</html>
