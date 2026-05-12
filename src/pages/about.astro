@@ -1,9 +1,15 @@
 ---
 import Layout from '../layouts/BlogPost.astro';
+import BaseHead from '../../components/BaseHead.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../../consts';
+import { getCollection } from 'astro:content';
 ---
 
 <style>
 .aboutimage {
+  height: auto;
   background-position: center;
   background-image: url("/PXL_20250525_194951996_exported_72_1748222758320.jpg");
   background-size: cover;
@@ -14,7 +20,7 @@ import Layout from '../layouts/BlogPost.astro';
 <header>
 <div class="aboutimage"></div>
 <h1>About Me</h1>
-<p class=@font-face>My name is Shane Gates and I got into urban planning through an interest in public transportation.
+<p class="date">My name is Shane Gates and I got into urban planning through an interest in public transportation.
 I remember when I first started high school in Brampton, I started taking the bus for the first time.
 I had a two hour transfer with my fare, so naturally my cost-conscious brain wanted to get the most out of it.
 I started walking backwards along the route to achieve as great of a distance as possible, which turned into taking as many routes as possible.
