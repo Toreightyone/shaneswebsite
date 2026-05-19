@@ -1,1 +1,117 @@
-.
+---
+import Layout from '../layouts/BlogPost.astro';
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+import { getCollection } from 'astro:content';
+
+---
+
+<!doctype html>
+<html lang="en">
+        <head>
+                <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+                <style>
+                        main {
+                                width: 960px;
+                        }
+                        ul {
+                                display: flex;
+                                flex-wrap: wrap;
+                                gap: 2rem;
+                                list-style-type: none;
+                                margin: 0;
+                                padding: 0;
+                        }
+                        ul li {
+                                width: calc(50% - 1rem);
+                        }
+                        ul li * {
+                                text-decoration: none;
+                                transition: 0.2s ease;
+                        }
+                        ul li:first-child {
+                                width: 100%;
+                                margin-bottom: 1rem;
+                                text-align: center;
+                        }
+                        ul li:first-child img {
+                                width: 100%;
+                        }
+                        ul li:first-child .title {
+                                font-size: 2.369rem;
+                        }
+                        ul li img {
+                                margin-bottom: 0.5rem;
+                                border-radius: 12px;
+                        }
+                        ul li a {
+                                display: block;
+                        }
+                        .title {
+                                margin: 0;
+                                color: rgb(var(--black));
+                                line-height: 1;
+                        }
+                        .date {
+                                margin: 0;
+                                color: rgb(var(--gray));
+                        }
+                        ul li a:hover h4,
+                        ul li a:hover .date {
+                                color: rgb(var(--accent));
+                        }
+                        ul a:hover img {
+                                box-shadow: var(--box-shadow);
+                        }
+                        @media (max-width: 720px) {
+                                ul {
+                                        gap: 0.5em;
+                                }
+                                ul li {
+                                        width: 100%;
+                                        text-align: center;
+                                }
+                                ul li:first-child {
+                                        margin-bottom: 0;
+                                }
+                                ul li:first-child .title {
+                                        font-size: 1.563em;
+                                }
+                        }
+                </style>
+        </head>
+        <body>
+                <Header />
+                <main>
+                        <section>
+                                <ul>
+                                                <li></li>
+                                                                                <li>
+                                                        <a href="https://spacing.ca/toronto/2026/05/11/op-ed-yonge-street-deserves-pedestrianization/">
+                                                                <img width={720} height={360} src="https://spacing.ca/toronto/wp-content/uploads/sites/4/2026/05/Shane-Spacing-Image-0-1200x901.jpg" alt="" />
+                                                                <h5 class="title">Yonge Street deserves pedestrianization</h5>
+                                                                <p class="date">Spacing Magazine | May 11, 2026</p>
+                                                        </a>
+                                                </li>
+<li>
+                                                        <a href="https://www.thestar.com/opinion/contributors/new-years-eve-transit-fiasco-may-result-in-fatalities-next-year/article_e1230fa8-a995-11ee-a113-8f95dc791dab.html">
+                                                                <img width={720} height={360} src="https://bloximages.chicago2.vip.townnews.com/thestar.com/content/tncms/assets/v3/editorial/9/9c/99c7e8af-e462-53bd-8829-eb61c7e86691/65948be0ae4b6.image.jpg?resize=1476%2C947" alt="" />
+                                                                <h5 class="title">New Year’s Eve transit fiasco may result in fatalities next year</h5>
+                                                                <p class="date">Toronto Star | January 2, 2024</p>
+                                                        </a>
+                                                </li>
+                                                <li>
+                                                        <a href="https://www.thestar.com/opinion/contributors/dundas-street-has-an-opportunity-for-greatness-in-the-face-of-ontario-line-construction/article_f5a59d2b-3a70-57a3-919d-5e18602fec72.html">
+                                                                <img width={720} height={360} src="https://bloximages.chicago2.vip.townnews.com/thestar.com/content/tncms/assets/v3/editorial/d/d1/dd1e6434-cb09-5a6c-b3bb-7bbd592c497f/6471ce50c23cb.image.jpg" alt="" />
+                                                                <h5 class="title">Dundas Street has an opportunity for greatness in the face of Ontario Line construction</h5>
+                                                                <p class="date">Toronto Star | May 15, 2023</p>
+                                                        </a>
+                                                </li>
+                                </ul>
+                        </section>
+                </main>
+                <Footer />
+        </body>
+</html>
