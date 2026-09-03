@@ -17,7 +17,17 @@ import Layout from '../layouts/BlogPost.astro';
   background-image: url("/main-image-skyline.jpg");
   background-size: cover;
 }
+
+div.path {
+  width:100%;
+  overflow:auto;
+}
+div.path div {
+  width:50%;  
+  float:left;
+}
 </style>
+
 	<head>
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
 	</head>
@@ -25,6 +35,10 @@ import Layout from '../layouts/BlogPost.astro';
 		<Header />
 			<div class="mainimage"></div>
 		<main>
+			<div class="path">
+				<div style="background-color:#110942;">
+				</div>
+			</div>					
 		</main>
 		<Footer />
 	</body>
