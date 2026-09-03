@@ -18,9 +18,14 @@ import Layout from '../layouts/BlogPost.astro';
   background-size: cover;
 }
 
-div.path {
+div.path1 {
 	display: grid;
-  	grid-template-columns: 49% 2% 49%;
+  	grid-template-columns: 32% 3% 32% 1% 32%;
+}
+
+div.path2 {
+	display: grid;
+  	grid-template-columns: 23.25% 2.33% 23.25% 2.33% 23.25% 2.33% 23.25%;
 }
 
 </style>
@@ -34,18 +39,42 @@ div.path {
 		<main>
 			<h2 style="text-align: center;">PATH Map Redesign</h2>
 			<p style="margin: 4px; text-align: center;"> After one too many times helping lost tourists and residents alike navigate the labyrinth that is the PATH, I decided to redesign the current spaghetti-like map into one closer resembling a subway map, with inspiration from the Tokyo Metro, which numbers stations.<p>
-			<div class="path">
+			<div class="path1">
 				<div style="background-color:#FFFFFF;">
-					<h4> Current: </h4>
+					<h5> Current: </h5>
 					<img src="/94dd-PATH-Basemap-2023-12-FINAL_page-0001.jpg">
 				</div>
-				<div style="background-color:#FFFFFF; width:2px">
+				<div style="background-color:#FFFFFF">
 				</div>
 				<div style="background-color:#FFFFFF;">
-					<h4> My version: </h4>
+					<h5> My Version: </h5>
 					<img src="/Shane Gates - Map.jpg">
+				<div style="background-color:#FFFFFF">
 				</div>
-			</div>					
+				<div style="background-color:#FFFFFF;">
+					<img src="/Shane Gates - Directory.jpg">
+				</div>
+			</div>
+			<div class="path2">
+				<div style="background-color:#FFFFFF;">
+					<img src="/Shane Gates - PR1-2.jpg">
+				</div>
+				<div style="background-color:#FFFFFF">
+				</div>
+				<div style="background-color:#FFFFFF;">
+					<img src="/Shane Gates - R17P10G9.jpg">
+				</div>
+				<div style="background-color:#FFFFFF">
+				</div>
+				<div style="background-color:#FFFFFF;">
+					<img src="/Shane Gates - R6P6.jpg">
+				</div>
+				<div style="background-color:#FFFFFF">
+				</div>
+				<div style="background-color:#FFFFFF;">
+					<img src="/Shane Gates - R7P7B14.jpg">
+				</div>
+			</div>
 		</main>
 		<Footer />
 	</body>
