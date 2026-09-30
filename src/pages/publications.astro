@@ -135,6 +135,10 @@ import { getCollection } from 'astro:content';
 					font-size: 1.563em;
 				}
 			}
+			div.wiki {
+				display: grid;
+  				grid-template-columns: 20% 2% 78%;
+			}
 		</style>
 	</head>
 	<body>
@@ -169,7 +173,10 @@ import { getCollection } from 'astro:content';
 		</main>
 			<section>
 				<h2 style="text-align: center;">Wikipedia Articles Created:</h2>
-				<img width={45} height={45} src="https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Women_in_Red_logo.svg/500px-Women_in_Red_logo.svg.png" /><p style="margin-left=3%; margin-right=3%"> I am a member of Women in Red, a group of Wikipedia editors whose goal is to achieve gender parity in the number of biographies on the site. Women are more likely to have their achievements overlooked than men with their stories often going untold. In 2017, there were seven male biographies for every one female biography. That ratio has since narrowed to 1 in 5 as of September 2026.</p>
+				<div class="wiki">
+				<img width={45} height={45} src="https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Women_in_Red_logo.svg/500px-Women_in_Red_logo.svg.png" />
+				<p style="margin-left=1%; margin-right=1%"> I am a member of Women in Red, a group of Wikipedia editors whose goal is to achieve gender parity in the number of biographies on the site. Women are more likely to have their achievements overlooked than men with their stories often going untold. In 2017, there were seven male biographies for every one female biography. That ratio has since narrowed to 1 in 5 as of September 2026.</p>
+				</div>
 				<ul2>
 						<li></li>
 						<li>
