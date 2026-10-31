@@ -30,4 +30,4 @@ Do we refrain from these initiatives because Toronto's political machine is so a
 
 ---
 
-_(Banner image: A trick-or-treater in front of a house in Rancho Santa Margarita, California, USA on October 31, 2014. A photo taken by Nandaro, uploaded to [Wikicommons](https://commons.wikimedia.org/wiki/File:20141031-0695_Rancho_Santa_Margarita.JPG), and released under a CC BY-SA 4.0 license)_
+_Banner image: A trick-or-treater in front of a house in Rancho Santa Margarita, California, USA on October 31, 2014. A photo taken by Nandaro, uploaded to [Wikicommons](https://commons.wikimedia.org/wiki/File:20141031-0695_Rancho_Santa_Margarita.JPG), and released under a CC BY-SA 4.0 license_
