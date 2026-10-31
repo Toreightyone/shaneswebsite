@@ -1,6 +1,6 @@
 ---
 title: "What Toronto can learn from New York City and Seattle about children's safety on Halloween"
-description: "A"
+description: "I contrast New York City and Seattle's approaches to pedestrian (children) safety on Halloween to Toronto's (there isn't one) and the levels of bureaucracy between the three in closing a neighbourhood Street."
 pubDate: "Oct 31, 2026"
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/2/2a/20141031-0695_Rancho_Santa_Margarita.JPG"
 ---
