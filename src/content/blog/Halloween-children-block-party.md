@@ -1,7 +1,7 @@
 ---
 title: "How Halloween Encapsulates Toronto's Priorities (I)"
 description: "I contrast New York City and Seattle's approaches to pedestrian (children) safety on Halloween to Toronto's (there isn't one) and the levels of bureaucracy between the three in closing a neighbourhood Street."
-pubDate: "Nov 3, 2026"
+pubDate: "Nov 3 2026"
 heroImage: "/960px-20141031-0695_Rancho_Santa_Margarita.png"
 ---
 
