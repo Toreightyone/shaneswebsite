@@ -1,11 +1,14 @@
 ---
-title: "What Toronto can learn from New York City and Seattle about children's safety on Halloween"
+title: "How Halloween Can Explain Urban Planning in Toronto"
 description: "I contrast New York City and Seattle's approaches to pedestrian (children) safety on Halloween to Toronto's (there isn't one) and the levels of bureaucracy between the three in closing a neighbourhood Street."
-pubDate: "Oct 31, 2026"
+pubDate: "Nov 3, 2026"
 heroImage: "/960px-20141031-0695_Rancho_Santa_Margarita.png"
 ---
 
+## Introduction
+I have been thinking a lot about Halloween for the past few weeks; not my costume (a Swedish Karoliner from the 1680s to the 1720s; I gave up and just said "yeah, you got it!" whenever someone guessed a pirate or Alexander Hamilton), but rather how Halloween can a pretty-decent medium for highlighting how Toronto operates across several lenses: the facilitation of cultural and community events, who gets the right to public space, and the priorities of the city. After my walk to the Church and Wellesley area on both Friday the 30th and Saturday the 31st, combined with ideas that I have seen cities like New York City and Seattle champion, one thing is obvious, and that is that Toronto's road closure permit system is broken and that is intentional.
 
+## Community-scale
 [Halloween is statistically the most dangerous day of the year for children](https://www.vox.com/future-perfect/2022/10/31/23427256/halloween-children-car-deaths-pedestrian-safety). According to [data from the Toronto Police](https://data.tps.ca/datasets/a96252bf61b84fc68c3926bb7485970e_0/explore), between 2008 and 2016 on October 31sts, six children under fourteen years of age were struck by drivers (table 1). "The children weren't doing anything wrong. They were trick-or-treaters who were out having a good time," [Const. Clint Stibbe said to the media](https://globalnews.ca/news/3037523/man-charged-after-three-trick-or-treaters-struck-by-vehicle-in-toronto/) after a driver struck three 13 to 14-year-olds at Lawrence and Don Mills in 2016.
 
 Trick-or-treating is ultimately a ritual of making connections between neighbours, often for the only time in a particular year. It should not be a dangerous activity but rather facilitated. However. we created our neighbourhoods to have a hostile moat running down its centre and then teach children to treat it as such, putting the onus on the child to not get hit by a driver; but we then have one night where the neighbourhoods' children are suddenly invited and encouraged to traverse the space? Of course, these are conditions for serious injury or death year-round, but frequency peaks particularly on Halloween when its darker earlier and there are more chances for collisions to occur.
@@ -28,6 +31,9 @@ I decided to go through the process for a block party permit with the NYC Event 
 
 It is baffling how unnecessarily difficult the process is in Toronto. Instead of encouraging these types of events for community building and for children's safety, the city instead treats the idea as an inconvenience. We can look to the success of the Church Street pedestrianization initiative this past summer, and Halloween annually, for validation that it is, in fact, not the end of the world to close a street, let alone a local road, but other cities are light years ahead in creating spaces that let kids be kids. Last year, 74 schools and childcare centres in New York City opted to close their adjacent street to traffic so children could play [under their School Streets program](https://comptroller.nyc.gov/reports/the-right-of-play-expanding-school-streets-access-in-nyc/), while Seattle has about 20 miles of semi-pedestrianised local roads dubbed ["Healthy Streets"](https://www.seattle.gov/transportation/projects-and-programs/programs/healthy-streets) with traffic calming that can easily be closed for events, no permit required, or for kids to setup a basketball game for example. While the debate in these two cities is that these pandemic-era programs could be even bolder, Toronto has nothing: no easy way to set up neighbourhood events, Quiet Streets and ActiveTO were scrapped, and our provincial government is currently ripping out the bike lanes that provide safe ways for children to cycle.
 
+## City-scale
+
+## Conclusion
 Do we refrain from these initiatives because Toronto's political machine is so afraid of being labelled as "anti-car"? Is it because the city tends to be overly risk-adverse to lawsuits and liability on the off chance something happens? Or perhaps because there is no one bold enough to champion such a program? It can be all three, but it comes down to a matter of priorities. It is not children, Vision Zero, nor community cohesion at the top of the list but rather preserving the status quo and formulating policy around the benefactors of car-centric neighbourhood planning: drivers.
 
 ---
