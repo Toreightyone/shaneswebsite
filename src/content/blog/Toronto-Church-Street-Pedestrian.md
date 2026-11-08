@@ -2,7 +2,7 @@
 title: "Toronto is decades late to the pedestrianization party, but it is better late than never I guess"
 description: "Toronto is short of pedestrianized spaces. We celebrate our street festivals, but never carry over the community and cultural benefits into a longer term initiative. Thank goodness for advocates like Rodney Chan who worked with Councillor Moise for the upcoming Church Street road closure (really an opening) this summer, but the city has room for more."
 pubDate: "Apr 15 2026"
-heroImage: ""
+heroImage: "/blog-placeholder-2.jpg"
 ---
 *Originally submitted to the Toronto Star on April 15, 2026*
 
