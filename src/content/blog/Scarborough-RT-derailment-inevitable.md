@@ -1,4 +1,10 @@
-Monday's Scarborough RT derailment was inevitable
+---
+title: "Monday's Scarborough RT derailment was inevitable"
+description: "Decades of kicking the can down the road set up Line 3 to fail. Council and the province fought each other and among themselves to decide on a replacement while the TTC had to rely on duct tape to keep the trains from falling apart."
+pubDate: "Jul 25 2023"
+heroImage: "/Scarborough_RT_train_(2021).jpg"
+---
+*Originally submitted to the Toronto Star on July 25, 2023*
 
 [On Monday evening, the trailing car of a train on the Scarborough RT decoupled and then derailed](https://www.thestar.com/news/gta/ttc-says-line-3-service-may-not-resume-for-several-days-after-scarborough-train-derailment/article_96226692-fb9c-5afa-ad51-3c84598fe099.html#:~:text=On%20Tuesday%2C%20the%20TTC%20said%20there%20is%20still,take%20%E2%80%9Cseveral%20days%20at%20minimum%E2%80%9D%20to%20restore%20service.), leading to five passengers being sent to hospital. While we await a review determining the exact cause for the car's derailment, political infighting for decades has left the aging SRT vulnerable to incidents like these.
 
