@@ -4,7 +4,7 @@ description: "Mississauga is undergoing a housing shortage like the rest of Onta
 pubDate: "Jul 13 2023"
 heroImage: "/Aerial_View_of_Downtown_Mississauga.JPG"
 ---
-*Originally submiited to The Toronto Star on July 13, 2023*
+*Originally submitted to The Toronto Star on July 13, 2023*
 
 It is no secret that rental prices and housing costs have skyrocketed over the past few years. A stable place to live is increasingly out of reach for those most vulnerable to housing insecurity such as first-time homebuyers, students, newer arrivals to Canada, and precariously employed workers. Every city has a part to play in ensuring housing is available, but Mississauga seems to be the one most apathetic to this responsibility.
 
