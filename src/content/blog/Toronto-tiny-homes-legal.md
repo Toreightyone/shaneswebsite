@@ -2,7 +2,7 @@
 title: "Toronto justifies cruelty with bureaucracy"
 description: "Homelessness is a problem in Toronto. While City Hall drags on meaningful solutions, private citizens like Ryan Donais have had enough and actually did something about it, and the city sends them cease and desists in return."
 pubDate: "Feb 18 2025"
-heroImage: ""
+heroImage: "/blog-placeholder-3.jpg"
 ---
 *Originally submitted to the Toronto Star on February 18, 2025*
 
