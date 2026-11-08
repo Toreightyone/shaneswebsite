@@ -32,4 +32,4 @@ Mississauga needs to get serious about the bureaucracy attached to building much
 
 ---
 
-*Banner image: An aerial photo of downtown Mississauga in 2021. A photo taken by Jason Zytynsky, uploaded to [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Scarborough_RT_train_(2021).jpg) on June 29, 2021, and released under a CC BY-SA 4.0 license*
+*Banner image: An aerial photo of downtown Mississauga in 2021. A photo taken by Jason Zytynsky, uploaded to [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Scarborough_RT_train_(2021).jpg) on June 29, 2021, and released under a CC BY-SA 4.0 license. Cropped from original.*
