@@ -4,7 +4,7 @@ description: "Doug Ford announced it will solve traffic by banning bikelanes, a 
 pubDate: "Sep 20 2024"
 heroImage: "/blog-placeholder-5.jpg"
 ---
-*Originally submiited to The Star on September 20, 2024*
+*Originally submitted to The Star on September 20, 2024*
 
 Doug Ford's provincial government has signalled his intention to "solve" traffic: a rule purely based in ideology that would [prohibit new bike lanes in cases where lanes for vehicles would be removed](https://www.thestar.com/politics/provincial/ford-government-to-restrict-new-bike-lanes-in-bid-to-ease-gridlock/article_8a6870c0-7755-11ef-b901-4f02b8c46b12.html). This overreach into city planning is indicative of how provincial guidelines, for years, have stunted the extent to which cities can implement measures to ameliorate traffic.
 
