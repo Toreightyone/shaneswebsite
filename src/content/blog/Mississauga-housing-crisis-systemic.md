@@ -2,7 +2,7 @@
 title: "Mississauga is systematically unwilling to address the housing crisis"
 description: "Mississauga is undergoing a housing shortage like the rest of Ontario, but is poised to do nothing about it - a system built for that very purpose over the course of decades."
 pubDate: "Jul 13 2023"
-heroImage: "/Aerial_View_of_Downtown_Mississauga.JPG"
+heroImage: "/Aerial_View_of_Downtown_Mississauga.jfif"
 ---
 *Originally submitted to The Toronto Star on July 13, 2023*
 
