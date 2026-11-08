@@ -24,4 +24,4 @@ In Amsterdam, there are staffed kiosks on-board every tram that provide maps and
 
 ---
 
-*Banner image: A photo of a PRESTO device onboard a streetcar. A photo taken by Alexscarborough, uploaded to [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:PRESTO_fare_validator_on_TTC_low-floor_streetcar.jpg), and released under a CC BY-SA 4.0 license*
+*Banner image: A photo of a PRESTO device onboard a streetcar. A photo taken by Alexscarborough, uploaded to [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:PRESTO_fare_validator_on_TTC_low-floor_streetcar.jpg), and released under a CC BY-SA 4.0 license. Cropped from original.*
