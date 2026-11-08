@@ -22,4 +22,6 @@ The SRT's rollingstock and infrastructure has been pushed as far as it could whi
 
 There is some hope as construction on transit projects has either started, or is nearing completion city-wide, but Scarborough commuters will imminently face a significant gap in their already arduous commute. It is imperative that current governments at all levels agree and fund one solution at a time, starting with complete bus priority for shuttle buses, followed by replacing the right-of-way with a busway that has the support of Mayor Olivia Chow, and continuing with meaningful improvement to Scarborough's transit map to finally give the much-needed support residents have been demanding for years.
 
-_Shane Gates is an undergraduate student at the University of Toronto majoring in urban planning._
+---
+
+*Banner image: A photo of Line 3 Scarborough RT train 3013 on August 21, 2014. A photo taken by Jason Zytynsky, uploaded to [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Aerial_View_of_Downtown_Mississauga.JPG), and released under a CC BY-SA 4.0 license. Cropped from original.*
