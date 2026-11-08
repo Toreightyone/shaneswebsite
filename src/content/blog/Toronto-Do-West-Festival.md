@@ -1,4 +1,10 @@
-Do West Fest chaos epitomises Toronto's desire for pedestrian spaces
+---
+title: "Do West Fest chaos epitomises Toronto's desire for pedestrian spaces"
+description: "Crowding at the Do West Festival is examplary of the fact that Toronto needs more pedestrian spaces so people can enjoy the weather and make community connections. We have 1-2 streets per weekend in the summer and expect that to be enough for not just Toronto, but the GTA. We desperately need more of them."
+pubDate: "Jun 10 2026"
+heroImage: "/blog-placeholder-4.jpg"
+---
+*Originally submitted to the Toronto Star on June 10, 2026*
 
 This past weekend from Ossington Avenue to Lansdowne Avenue on Dundas Street was an absolute party. It was so much fun walking from end to end and seeing vendors from dozens of cultures and ethnicities: jewellery, handcrafts, desserts, food, buskers, attempts at karaoke, and micro-raves at DJs' booths. However, I went on Sunday, hours after demand clearly exceeded capacity. Videos of severe crowding and shoving demonstrate that the people yearn for more opportunities to just be outside and hang out.
 
