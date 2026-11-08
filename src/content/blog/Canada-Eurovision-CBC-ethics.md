@@ -2,7 +2,7 @@
 title: "Canada joining Eurovision is a win-win-win, but what's the catch?"
 description: "I love Eurovision perhaps too much. The lead up, the national selections, the semi-finals, and the finals occupies a good chunk of the year for me. Canada should absolutely join, but the context is troubling because it stems from a necessity from the EBU for cash as five countries are boycotting since they refuse to expel Israel's public broadcaster KAN from the contest."
 pubDate: "Jul 2 2026"
-heroImage: ""
+heroImage: "/blog-placeholder-2.jpg"
 ---
 *Originally submitted to the Toronto Star on July 2, 2026*
 
