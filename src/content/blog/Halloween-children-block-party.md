@@ -2,7 +2,7 @@
 title: "How Halloween Encapsulates Toronto's Priorities (I)"
 description: "I contrast New York City and Seattle's approaches to pedestrian (children) safety on Halloween to Toronto's (there isn't one) and the levels of bureaucracy between the three in closing a neighbourhood Street."
 pubDate: "Nov 3 2026"
-heroImage: "/960px-20141031-0695_Rancho_Santa_Margarita.png"
+heroImage: "20141031-0695_Rancho_Santa_Margarita.jfif"
 ---
 
 I have been thinking a lot about Halloween for the past few weeks; not my costume (a Swedish Karoliner from the 1680s to the 1720s; I gave up and just said "yeah, you got it!" whenever someone guessed a pirate or Alexander Hamilton), but rather how Halloween is a pretty-decent medium for highlighting how Toronto operates across several lenses: the facilitation of cultural and community events, who gets the right to public space, and the priorities of the city. After my walk to the Church and Wellesley area on both Friday the 30th and Saturday the 31st, combined with ideas that I have seen cities like New York City and Seattle champion, one thing is obvious, and that is that Toronto's road closure permit system is broken and that is intentional.
