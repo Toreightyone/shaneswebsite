@@ -1,8 +1,10 @@
-Mississauga is systematically unwilling to address the housing crisis
-
-OR
-
-Mississauga's housing record will haunt Mayor Crombie's OLP leadership campaign
+---
+title: "Mississauga is systematically unwilling to address the housing crisis"
+description: "Mississauga is undergoing a housing shortage like the rest of Ontario, but is poised to do nothing about it - a system built for that very purpose over the course of decades."
+pubDate: "Jul 13 2023"
+heroImage: "/Aerial_View_of_Downtown_Mississauga.JPG"
+---
+*Originally submiited to The Toronto Star on July 13, 2023*
 
 It is no secret that rental prices and housing costs have skyrocketed over the past few years. A stable place to live is increasingly out of reach for those most vulnerable to housing insecurity such as first-time homebuyers, students, newer arrivals to Canada, and precariously employed workers. Every city has a part to play in ensuring housing is available, but Mississauga seems to be the one most apathetic to this responsibility.
 
@@ -27,3 +29,7 @@ This is not the first time Mississauga has refused easy access to the transit fa
 The Mississauga Transitway was built in the Parkway Belt, an area designated for 'conservation', despite housing Highway 403, various parking lots, Hydro One facilities, and the transitway itself. Perhaps it should have been built on Burnhamthorpe Parkway as urbanist Gil Peñalosa suggested, but the reality is that governments past built this massive right-of-way where it is, and the government of today should use it to the potential that taxpayers paid for. The adjacent Eastgate Parkway cannot look like a façade of rural Ontario. The transit-orientated community should be widely adopted with higher-density housing next to these underutilised stations that provide frequent cross-city travel and connections to Toronto, Guelph, Kitchener-Waterloo, Brampton, and Hamilton. Given the stances on developing grasslands by the mayor and the premier, it should not be too difficult to negotiate zoning changes to this with coordination with Hydro One. Winston Churchill and Erin Mills stations, where the only thing in their vicinities are their own parking lots, also have built-in space for development.
 
 Mississauga needs to get serious about the bureaucracy attached to building much needed housing and more importantly, reducing the stringency of the approval process. A CMHC report found that an increase in land use regulation results in a decrease of housing affordability — something must change, and it does not look like Mississauga will be building their own social housing any time soon. Shadows, sharp height gradients, parking, and congestion are not life or death issues, availability of housing is.
+
+---
+
+*Banner image: An aerial photo of downtown Mississauga on August 21, 2014. A photo taken by Jason Zytynsky, uploaded to [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Aerial_View_of_Downtown_Mississauga.JPG), and released under a CC BY-SA 4.0 license*
