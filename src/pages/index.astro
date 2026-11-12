@@ -50,9 +50,19 @@ div.path3 {
 	const TTC_ENDPOINT = 'https://www.ttc.ca/ttcapi/routedetail//getstopdetails?stop=9445';
     const PROXY_URL = `https://api.allorigins.win/raw?url=${encodeURIComponent(TTC_ENDPOINT)}`;
     const stationName = document.getElementById('station');
-	const response = await fetch(PROXY_URL);
-	const data = await response.json();
-	station.innerHTML = data.stopName;
+
+	async function test() {
+      try {
+        const response = await fetch(PROXY_URL);
+        const data = await response.json();
+        stationName.innerHTML = data.stopName;
+      } catch (error) {
+        console.error('Error:', error);
+        stationName.innerHTML = error;
+      }
+    }
+
+    test();
 </script>
 
 			<h2 style="text-align: center;">PATH Map Redesign</h2>
