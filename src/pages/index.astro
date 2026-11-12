@@ -44,25 +44,16 @@ div.path3 {
 		<Header />
 			<div class="mainimage"></div>
 		<main>
-<p id="demo"></p>
+
+<p id="station">This is where the station name goes</p>
 <script>
-async function getData() {
-  const url = "https://www.ttc.ca/ttcapi/routedetail//getstopdetails?stop=9445";
-  try {
-    const response = await fetch(url);
-    if (!response.ok) {
-      throw new Error(`Response status: ${response.status}`);
-    }
-
-    const result = await response.json();
-    document.getElementById("demo").innerHTML = result;
-  } catch (error) {
-    document.getElementById("demo").innerHTML = error.message;
-  }
-}
+	const TTC_ENDPOINT = 'https://www.ttc.ca/ttcapi/routedetail//getstopdetails?stop=9445';
+    const PROXY_URL = `https://api.allorigins.win/raw?url=${encodeURIComponent(TTC_ENDPOINT)}`;
+    const stationName = document.getElementById('station');
+	const response = await fetch(PROXY_URL);
+	const data = await response.json();
+	station.innerHTML = data.stopName;
 </script>
-
-
 
 			<h2 style="text-align: center;">PATH Map Redesign</h2>
 			<p style="margin: 4px; text-align: center;"> After one too many times helping lost tourists and residents alike navigate the labyrinth that is the PATH, I decided to redesign the current spaghetti-like map into one closer resembling a subway map, with inspiration from the Tokyo Metro, which numbers stations.<p>
