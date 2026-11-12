@@ -47,22 +47,15 @@ div.path3 {
 
 <p id="station">This is where the station name goes</p>
 <script>
-const TTC_ENDPOINT = 'https://www.ttc.ca/ttcapi/routedetail//getstopdetails?stop=9445';
-const PROXY_URL = `https://api.allorigins.win/raw?url=${encodeURIComponent(TTC_ENDPOINT)}`;
-const stationName = document.getElementById('station');
-
-async function test() {
-try {
-const response = await fetch(PROXY_URL);
+const params = new URLSearchParams({
+  key: "ad3c8199",
+  url: "https://www.ttc.ca/ttcapi/routedetail//getstopdetails?stop=9445",
+});
+const response = await fetch('https://corsproxy.io/?' + params);
+if (!response.ok) throw new Error('HTTP ' + response.status + ': ' + await response.text());
 const data = await response.json();
-stationName.innerHTML = data.stopName;
-} catch (error) {
-console.error('Error:', error);
-stationName.innerHTML = error.toString();
-}
-}
+document.getElementById('station').innerHTML = data.stopName;
 
-test();
 </script>
 
 			<h2 style="text-align: center;">PATH Map Redesign</h2>
