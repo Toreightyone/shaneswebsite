@@ -58,7 +58,7 @@ const data = await response.json();
 stationName.innerHTML = data.stopName;
 } catch (error) {
 console.error('Error:', error);
-stationName.innerHTML = error;
+stationName.innerHTML = error.toString();
 }
 }
 
