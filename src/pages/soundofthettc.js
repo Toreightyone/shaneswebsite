@@ -29,13 +29,23 @@ let Main_Street = 0;
 let Victoria_Park = 0;
 let Warden = 0;
 let KennedyL2 = 0;
+// https://www.ttc.ca/ttcapi/routedetail//getstopdetails?stop=9445
+
 const params = new URLSearchParams({
   key: "ad3c8199",
   url: "https://www.ttc.ca/ttcapi/routedetail//getstopdetails?stop=9445",
 });
-const response = await fetch('https://corsproxy.io/?' + params);
+fetch("https://corsproxy.io/?" + params)
+  .then(async (response) => {
+    if (!response.ok) throw new Error('HTTP ' + response.status + ': ' + await response.text());
+    const contentType = response.headers.get('content-type') || '';
+    return contentType.includes('json') ? response.json() : response.text();
+  })
+.then((data) => 
+    document.getElementById('station').innerHTML = data.stopName;
+    document.getElementById('station_time').innerHTML = data.nextTrains[0].line + ' ' + data.nextTrains[0].directionText + ' ' + data.nextTrains[0].arrivalTimes[0].nextArrival;
+)
+.catch((error) =>
+    document.getElementById('station').innerHTML = error.toString();
+);
 
-if (!response.ok) throw new Error('HTTP ' + response.status + ': ' + await response.text());
-const data = await response.json();
-document.getElementById('station').innerHTML = data.stopName;
-document.getElementById('station_time').innerHTML = data.nextTrains[0].line + ' ' + data.nextTrains[0].directionText + ' ' + data.nextTrains[0].arrivalTimes[0].nextArrival
