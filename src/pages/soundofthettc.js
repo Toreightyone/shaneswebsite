@@ -42,7 +42,7 @@ fetch("https://corsproxy.io/?" + params)
     return contentType.includes('json') ? response.json() : response.text();
   })
 .then((data) => 
-    document.getElementById('station').innerHTML = data.stopName;
+    document.getElementById('station').innerHTML = data.stopName,
     document.getElementById('station_time').innerHTML = data.nextTrains[0].line + ' ' + data.nextTrains[0].directionText + ' ' + data.nextTrains[0].arrivalTimes[0].nextArrival;
 )
 .catch((error) =>
