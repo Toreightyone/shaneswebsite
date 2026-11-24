@@ -41,11 +41,11 @@ fetch("https://corsproxy.io/?" + params)
     const contentType = response.headers.get('content-type') || '';
     return contentType.includes('json') ? response.json() : response.text();
   })
-.then((data) => 
-    document.getElementById('station').innerHTML = data.stopName,
+.then((data) => {
+    document.getElementById('station').innerHTML = data.stopName;
     document.getElementById('station_time').innerHTML = data.nextTrains[0].line + ' ' + data.nextTrains[0].directionText + ' ' + data.nextTrains[0].arrivalTimes[0].nextArrival;
-)
-.catch((error) =>
+  })
+.catch((error) => {
     document.getElementById('station').innerHTML = error.toString();
-);
+  });
 
