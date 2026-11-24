@@ -18,7 +18,7 @@ import Layout from '../layouts/BlogPost.astro';
 <Header />
 
 <p id="station">This is where the station name goes</p>
-<p id="station_time">This is where the rest of it goesa</p>
+<p id="station_time">This is where the rest of it goes</p>
 
 <script>
 // Kipling = 0; Islington = 1; Royal_York = 2; Old_Mill = 3; Jane = 4; Runnymede = 5; High_Park = 6; Keele = 7; Dundas_West = 8; Lansdowne = 9; Dufferin = 10; Ossington = 11;
@@ -28,6 +28,7 @@ let Line2ebtime = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 let Line2wbtime = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 const Line2stops = ['7906', '2708', '6967', '6423', '1167', '7045', '5122', '7880', '3529', '14575', '14594', '8007', '14595', '76', '8115', '1581', '14579', '14572', '14574', '7597', '1765', '14573', '6630', '9445', '3667', '4917', '3194', '1258', '7427', '10142', '6480'];
 
+function checkTimes(Line2ebtime, Line2wbtime, Line2stops) {
 Line2stops.forEach((element, index) => {
 let params = new URLSearchParams({
   key: "ad3c8199",
@@ -48,8 +49,10 @@ fetch("https://corsproxy.io/?" + params)
     document.getElementById('station').innerHTML = error.toString();
   });
 });
-</script>
+};
 
+setInterval(checkTimes, 10000);
+</script>
 <Footer />
 </body>
 </html>
