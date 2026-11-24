@@ -28,7 +28,7 @@ let Line2ebtime = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 let Line2wbtime = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 const Line2stops = ['7906', '2708', '6967', '6423', '1167', '7045', '5122', '7880', '3529', '14575', '14594', '8007', '14595', '76', '8115', '1581', '14579', '14572', '14574', '7597', '1765', '14573', '6630', '9445', '3667', '4917', '3194', '1258', '7427', '10142', '6480'];
 
-function checkTimes(Line2ebtime, Line2wbtime, Line2stops) {
+for (let a = 0; a <= 5; a++) {
 Line2stops.forEach((element, index) => {
 let params = new URLSearchParams({
   key: "ad3c8199",
@@ -44,14 +44,13 @@ fetch("https://corsproxy.io/?" + params)
     document.getElementById('station').innerHTML = data.stopName;
     Line2ebtime[index] = data.nextTrains[0].arrivalTimes[0].nextArrival;
     document.getElementById('station_time').innerHTML = Line2ebtime.toString();
+    setTimeout(() => {}, 1000);
   })
 .catch((error) => {
     document.getElementById('station').innerHTML = error.toString();
   });
 });
 };
-checkTimes();
-setInterval(checkTimes, 10000);
 </script>
 <Footer />
 </body>
