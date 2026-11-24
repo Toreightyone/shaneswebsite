@@ -23,10 +23,10 @@ import Layout from '../layouts/BlogPost.astro';
 <script>
 // Kipling = 0; Islington = 1; Royal_York = 2; Old_Mill = 3; Jane = 4; Runnymede = 5; High_Park = 6; Keele = 7; Dundas_West = 8; Lansdowne = 9; Dufferin = 10; Ossington = 11;
 // Christie = 12; Bathurst = 13; SpadinaL2 = 14; StGeorgeL2 = 15; Bay = 16; BloorYongeL2 = 17; Sherbourne = 18; Castle_Frank = 19; Broadview = 20; Chester = 21;
-// Pape = 22; Donlands = 23; Greenwood = 24; Coxwell = 25; Woodbine = 26; Main_Street = 27; Victoria_Park = 28; Warden = 29; KennedyL2 = 30;
-let Line2ebtime = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
-let Line2wbtime = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
-const Line2stops = ['7906', '2708', '6967', '6423', '1167', '7045', '5122', '7880', '3529', '14575', '14594', '8007', '14595', '76', '8115', '1581', '14579', '14572', '14574', '7597', '1765', '14573', '6630', '9445', '3667', '4917', '3194', '1258', '7427', '10142', '6480'];
+// Pape = 22; Donlands = 23; Greenwood = 24; Coxwell = NOT AVAILABLE; Woodbine = 25; Main_Street = 26; Victoria_Park = 27; Warden = 28; KennedyL2 = 29;
+let Line2ebtime = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+let Line2wbtime = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+const Line2stops = ['7906', '2708', '6967', '6423', '1167', '7045', '5122', '7880', '3529', '14575', '14594', '8007', '14595', '76', '8115', '1581', '14579', '14572', '14574', '7597', '1765', '14573', '6630', '9445', '3667', '3194', '1258', '7427', '10142', '6480'];
 
 for (let a = 0; a <= 5; a++) {
 Line2stops.forEach((element, index) => {
