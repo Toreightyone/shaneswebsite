@@ -28,10 +28,10 @@ let Line2ebtime = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 let Line2wbtime = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 const Line2stops = ['7906', '2708', '6967', '6423', '1167', '7045', '5122', '7880', '3529', '14575', '14594', '8007', '14595', '76', '8115', '1581', '14579', '14572', '14574', '7597', '1765', '14573', '6630', '9445', '3667', '4917', '3194', '1258', '7427', '10142', '6480'];
 
-Line2stops.forEach(element => {
+Line2stops.forEach(index => {
 let params = new URLSearchParams({
   key: "ad3c8199",
-  url: "https://www.ttc.ca/ttcapi/routedetail//getstopdetails?stop=" + Line2stops[element],
+  url: "https://www.ttc.ca/ttcapi/routedetail//getstopdetails?stop=" + Line2stops[index],
 });
 fetch("https://corsproxy.io/?" + params)
   .then(async (response) => {
@@ -41,7 +41,7 @@ fetch("https://corsproxy.io/?" + params)
   })
 .then((data) => {
     document.getElementById('station').innerHTML = data.stopName;
-    Line2ebtime[element] = data.nextTrains[0].arrivalTimes[0].nextArrival; 
+    Line2ebtime[index] = data.nextTrains[0].arrivalTimes[0].nextArrival; 
     document.getElementById('station_time').innerHTML = Line2ebtime.toString();
   })
 .catch((error) => {
