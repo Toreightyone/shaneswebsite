@@ -46,6 +46,6 @@ fetch("https://corsproxy.io/?" + params)
     document.getElementById('station_time').innerHTML = data.nextTrains[0].line + ' ' + data.nextTrains[0].directionText + ' ' + data.nextTrains[0].arrivalTimes[0].nextArrival,
   )
 .catch((error) =>
-    document.getElementById('station').innerHTML = error.toString();
+    document.getElementById('station').innerHTML = error.toString(),
   );
 
