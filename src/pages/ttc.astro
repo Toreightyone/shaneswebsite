@@ -21,41 +21,17 @@ import Layout from '../layouts/BlogPost.astro';
 <p id="station_time">This is where the rest of it goesa</p>
 
 <script>
-let Kipling = 0;
-let Islington = 0;
-let Royal_York = 0;
-let Old_Mill = 0;
-let Jane = 0;
-let Runnymede = 0;
-let High_Park = 0;
-let Keele = 0;
-let Dundas_West = 0;
-let Lansdowne = 0;
-let Dufferin = 0;
-let Ossington = 0;
-let Christie = 0;
-let Bathurst = 0;
-let SpadinaL2 = 0;
-let StGeorgeL2 = 0;
-let Bay = 0;
-let BloorYongeL2 = 0;
-let Sherbourne = 0;
-let Castle_Frank = 0;
-let Broadview = 0;
-let Chester = 0;
-let Pape = 0;
-let Donlands = 0;
-let Greenwood = 0;
-let Coxwell = 0;
-let Woodbine = 0;
-let Main_Street = 0;
-let Victoria_Park = 0;
-let Warden = 0;
-let KennedyL2 = 0;
+// Kipling = 0; Islington = 1; Royal_York = 2; Old_Mill = 3; Jane = 4; Runnymede = 5; High_Park = 6; Keele = 7; Dundas_West = 8; Lansdowne = 9; Dufferin = 10; Ossington = 11;
+// Christie = 12; Bathurst = 13; SpadinaL2 = 14; StGeorgeL2 = 15; Bay = 16; BloorYongeL2 = 17; Sherbourne = 18; Castle_Frank = 19; Broadview = 20; Chester = 21;
+// Pape = 22; Donlands = 23; Greenwood = 24; Coxwell = 25; Woodbine = 26; Main_Street = 27; Victoria_Park = 28; Warden = 29; KennedyL2 = 30;
+let Line2ebtime = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+let Line2wbtime = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+const Line2stops = ['7906', '2708', '6967', '6423', '1167', '7045', '5122', '7880', '3529', '14575', '14594', '8007', '14595', '76', '8115', '1581', '14579', '14572', '14574', '7597', '1765', '14573', '6630', '9445', '3667', '4917', '3194', '1258', '7427', '10142', '6480'];
 
-const params = new URLSearchParams({
+Line2stops.forEach(element => {
+let params = new URLSearchParams({
   key: "ad3c8199",
-  url: "https://www.ttc.ca/ttcapi/routedetail//getstopdetails?stop=9445",
+  url: "https://www.ttc.ca/ttcapi/routedetail//getstopdetails?stop=" + Line2stops[element],
 });
 fetch("https://corsproxy.io/?" + params)
   .then(async (response) => {
@@ -65,11 +41,13 @@ fetch("https://corsproxy.io/?" + params)
   })
 .then((data) => {
     document.getElementById('station').innerHTML = data.stopName;
-    document.getElementById('station_time').innerHTML = data.nextTrains[0].line + ' ' + data.nextTrains[0].directionText + ' ' + data.nextTrains[0].arrivalTimes[0].nextArrival;
+    Line2ebtime[element] = data.nextTrains[0].arrivalTimes[0].nextArrival; 
+    document.getElementById('station_time').innerHTML = Line2ebtime.toString();
   })
 .catch((error) => {
     document.getElementById('station').innerHTML = error.toString();
   });
+});
 </script>
 
 <Footer />
